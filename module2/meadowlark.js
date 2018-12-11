@@ -22,6 +22,11 @@ app.get('/about', function (req, res) {
     res.render('about', { fortune: fortune.getFortune() });
 });
 
+app.get('/datetime', function (req, res) {
+    res.render('datetime', { fortune: fortune.displayTime() });
+    
+});
+
 //404 catch all handler (middleware)
 app.use(function (req, res, next) {
     res.status(404);
