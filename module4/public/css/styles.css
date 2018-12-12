@@ -1,0 +1,75 @@
+
+body {
+  background-image:url("/img/pexels.jpeg");
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  background-size: auto, auto 100%;
+  background-position: 50% 0;
+}
+
+a {
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+#selfie {
+  align-items: center;
+ height: 350px;
+}
+
+#fam {
+  align-items: center;
+ height: 350px;
+}
+
+#resume {
+  align-items: center;
+ height: 600px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 0px;
+  color: white;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: left;
+  padding-top: 0px;
+  color: white;
+  margin-left: 40px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+
+table, th, td {
+  border: solid 2px black;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: black;
+  background-color: #333;
+  color: white;
+  height: 50px;
+}
